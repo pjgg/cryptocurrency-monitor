@@ -87,6 +87,54 @@
 			"revisionTime": "2017-12-18T13:57:16Z"
 		},
 		{
+			"checksumSHA1": "Jhb1ViidthLV5KjD1NLStGFW4No=",
+			"path": "github.com/reactivex/rxgo",
+			"revision": "23f38f99d1c3fadfb560f5f7ac2fce17b9ebc03d",
+			"revisionTime": "2017-09-09T21:42:08Z"
+		},
+		{
+			"checksumSHA1": "/xlFJKW7yavIJ7Tj40+3q+gdHfI=",
+			"path": "github.com/reactivex/rxgo/errors",
+			"revision": "23f38f99d1c3fadfb560f5f7ac2fce17b9ebc03d",
+			"revisionTime": "2017-09-09T21:42:08Z"
+		},
+		{
+			"checksumSHA1": "oaxU6fqfuuHSfS5KVEkXMM2ADGg=",
+			"path": "github.com/reactivex/rxgo/fx",
+			"revision": "23f38f99d1c3fadfb560f5f7ac2fce17b9ebc03d",
+			"revisionTime": "2017-09-09T21:42:08Z"
+		},
+		{
+			"checksumSHA1": "NTwadmTX88oPokaoRg7bGdYn8Qk=",
+			"path": "github.com/reactivex/rxgo/handlers",
+			"revision": "23f38f99d1c3fadfb560f5f7ac2fce17b9ebc03d",
+			"revisionTime": "2017-09-09T21:42:08Z"
+		},
+		{
+			"checksumSHA1": "xDbGD7uDAWCM5q1ymw4bFVUT0vQ=",
+			"path": "github.com/reactivex/rxgo/iterable",
+			"revision": "23f38f99d1c3fadfb560f5f7ac2fce17b9ebc03d",
+			"revisionTime": "2017-09-09T21:42:08Z"
+		},
+		{
+			"checksumSHA1": "MLSyiLMRJTeRkLmpNkCGpSYz9g4=",
+			"path": "github.com/reactivex/rxgo/observable",
+			"revision": "23f38f99d1c3fadfb560f5f7ac2fce17b9ebc03d",
+			"revisionTime": "2017-09-09T21:42:08Z"
+		},
+		{
+			"checksumSHA1": "ydDS3y0RIHNrcC0m39M0251Hrfo=",
+			"path": "github.com/reactivex/rxgo/observer",
+			"revision": "23f38f99d1c3fadfb560f5f7ac2fce17b9ebc03d",
+			"revisionTime": "2017-09-09T21:42:08Z"
+		},
+		{
+			"checksumSHA1": "psG4pyxjMthnLey6gG83450bQ9s=",
+			"path": "github.com/reactivex/rxgo/subscription",
+			"revision": "23f38f99d1c3fadfb560f5f7ac2fce17b9ebc03d",
+			"revisionTime": "2017-09-09T21:42:08Z"
+		},
+		{
 			"checksumSHA1": "dW6L6oTOv4XfIahhwNzxb2Qu9to=",
 			"path": "github.com/spf13/afero",
 			"revision": "8d919cbe7e2627e417f3e45c3c0e489a5b7e2536",

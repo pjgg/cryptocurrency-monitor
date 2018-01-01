@@ -2,6 +2,8 @@ package utils
 
 import (
 	"bytes"
+	"fmt"
+	"io/ioutil"
 	"net/http"
 )
 
@@ -24,4 +26,10 @@ func MakeHTTPQuery(req *http.Request) (*http.Response, error) {
 	resp, err := client.Do(req)
 
 	return resp, err
+}
+
+func PrintResponseBody(resp *http.Response) {
+	bodyBytes, _ := ioutil.ReadAll(resp.Body)
+	bodyString := string(bodyBytes)
+	fmt.Println(bodyString)
 }

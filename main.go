@@ -6,10 +6,17 @@ import "fmt"
 //Example of usage
 func main() {
 
-	cryptoCurrencyService := new(service.CryptoCurrencyService)
+	cryptoCurrencyService := service.Instance()
 	cryptoCurrencyList := cryptoCurrencyService.RetrieveCurrencyInfo()
+	crytocurrencyNames := make([]string, len(cryptoCurrencyList))
 
-	for k := range cryptoCurrencyList {
-		fmt.Println(k)
+	for i, element := range cryptoCurrencyList {
+		fmt.Println(element)
+		crytocurrencyNames[i] = element.Name
+	}
+
+	stockValues := cryptoCurrencyService.RetrieveCurrencyStockValue(crytocurrencyNames)
+	for _, element := range stockValues {
+		fmt.Println(element)
 	}
 }
